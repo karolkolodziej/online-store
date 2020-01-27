@@ -1,0 +1,14 @@
+@import "./style/abstracts/variables";
+
+.App {
+  body {
+    box-sizing: border-box;
+    padding: 0 0.5rem 0 0.5rem;
+    background-color: $color-backgroung;
+    color: $color-text-1;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}

@@ -1,12 +1,13 @@
 import React from "react";
 
-import "./Footer.css";
+import "./_Footer.scss";
 
 export const Footer = () => {
   return (
     <div className="style-footer ui inverted vertical segment">
+      <div className="ui container">J & K </div>
       <div className="ui container">
-        Shop ---x---x---x--- All Rights Reserved 2020.
+        All Rights Reserved 2020. || Copyright &copy; by Karol Kołodziej.
       </div>
     </div>
   );

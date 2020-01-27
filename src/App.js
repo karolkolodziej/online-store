@@ -4,17 +4,19 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Home } from "./pages/Home";
-import { TShirts } from "./pages/TShirts";
+import { Buy } from "./pages/Buy";
+
+import "./App.scss";
 
 const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-        <header className="App-header">
-          <Header />
-        </header>
+        <Header />
+
         <Route path="/" exact component={Home} />
-        <Route path="/t-shirts" component={TShirts} />
+        <Route path="/buy" component={Buy} />
+
         <Footer />
       </BrowserRouter>
     </div>
